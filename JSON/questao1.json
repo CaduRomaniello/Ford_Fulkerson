@@ -1,0 +1,33 @@
+{
+    "vertices": [
+        {"name": "S"},
+        {"name": "1"},
+        {"name": "2"},
+        {"name": "3"},
+        {"name": "4"},
+        {"name": "5"},
+        {"name": "6"},
+        {"name": "7"},
+        {"name": "T"}
+    ],
+    "edges": [
+        {"name": "S->1", "origin": "S", "destiny": "1", "inferiorLimit": 0, "superiorLimit": 10, "viableFlow": 0},
+        {"name": "S->2", "origin": "S", "destiny": "2", "inferiorLimit": 0, "superiorLimit": 10, "viableFlow": 0},
+        {"name": "S->3", "origin": "S", "destiny": "3", "inferiorLimit": 0, "superiorLimit": 10, "viableFlow": 2},
+        {"name": "1->2", "origin": "1", "destiny": "2", "inferiorLimit": 4, "superiorLimit": 8, "viableFlow": 4},
+        {"name": "1->4", "origin": "1", "destiny": "4", "inferiorLimit": 0, "superiorLimit": 10, "viableFlow": 2},
+        {"name": "1->5", "origin": "1", "destiny": "5", "inferiorLimit": 0, "superiorLimit": 10, "viableFlow": 0},
+        {"name": "2->4", "origin": "2", "destiny": "4", "inferiorLimit": 0, "superiorLimit": 12, "viableFlow": 7},
+        {"name": "3->1", "origin": "3", "destiny": "1", "inferiorLimit": 2, "superiorLimit": 10, "viableFlow": 2},
+        {"name": "3->7", "origin": "3", "destiny": "7", "inferiorLimit": 0, "superiorLimit": 10, "viableFlow": 2},
+        {"name": "4->3", "origin": "4", "destiny": "3", "inferiorLimit": 2, "superiorLimit": 10, "viableFlow": 2},
+        {"name": "4->6", "origin": "4", "destiny": "6", "inferiorLimit": 0, "superiorLimit": 20, "viableFlow": 7},
+        {"name": "5->2", "origin": "5", "destiny": "2", "inferiorLimit": 3, "superiorLimit": 15, "viableFlow": 3},
+        {"name": "5->T", "origin": "5", "destiny": "T", "inferiorLimit": 0, "superiorLimit": 10, "viableFlow": 0},
+        {"name": "6->5", "origin": "6", "destiny": "5", "inferiorLimit": 2, "superiorLimit": 10, "viableFlow": 3},
+        {"name": "6->7", "origin": "6", "destiny": "7", "inferiorLimit": 2, "superiorLimit": 10, "viableFlow": 2},
+        {"name": "6->T", "origin": "6", "destiny": "T", "inferiorLimit": 0, "superiorLimit": 7, "viableFlow": 2},
+        {"name": "7->1", "origin": "7", "destiny": "1", "inferiorLimit": 4, "superiorLimit": 10, "viableFlow": 4},
+        {"name": "7->T", "origin": "7", "destiny": "T", "inferiorLimit": 0, "superiorLimit": 13, "viableFlow": 0}
+    ]
+}
