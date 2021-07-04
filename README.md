@@ -5,6 +5,11 @@ Here is implemented the Ford & Fulkerson algorithm to find the maximum flow in a
 ## Requiriments 
 To run the code you'll need to have [Julia](https://julialang.org/downloads/) compiler installed in your machine.
 
+To verify if you have all the packages installed on your machine run the following command in the terminal, if you don't have them, the program will automatically install them for you.
+```bash
+> julia dependencies/install_dependencies.jl
+```
+
 ---
 ## Execution
 The execution line is the same for windows and linux. You'll need to provide 3 parameters
