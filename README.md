@@ -2,7 +2,7 @@
 Here is implemented the Ford & Fulkerson algorithm to find the maximum flow in a graph with a feasible initial flow.
 
 ---
-## Requiriments 
+## Requirements 
 To run the code you'll need to have [Julia](https://julialang.org/downloads/) compiler installed in your machine.
 
 To verify if you have all the packages installed on your machine run the following command in the terminal, if you don't have them, the program will automatically install them for you.
