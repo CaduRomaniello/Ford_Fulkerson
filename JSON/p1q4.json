@@ -1,0 +1,20 @@
+{
+    "vertices": [
+        {"name": "S"},
+        {"name": "1"},
+        {"name": "2"},
+        {"name": "3"},
+        {"name": "4"},
+        {"name": "T"}
+    ],
+    "edges": [
+        {"name": "a1", "origin": "S", "destiny": "1", "inferiorLimit": 0, "superiorLimit": 81, "viableFlow": 0},
+        {"name": "a2", "origin": "1", "destiny": "2", "inferiorLimit": 0, "superiorLimit": 20, "viableFlow": 0},
+        {"name": "a4", "origin": "1", "destiny": "3", "inferiorLimit": 0, "superiorLimit": 2, "viableFlow": 0},
+        {"name": "a5", "origin": "1", "destiny": "4", "inferiorLimit": 0, "superiorLimit": 4, "viableFlow": 0},
+        {"name": "a6", "origin": "2", "destiny": "4", "inferiorLimit": 0, "superiorLimit": 5, "viableFlow": 0},
+        {"name": "a7", "origin": "3", "destiny": "2", "inferiorLimit": 0, "superiorLimit": 3, "viableFlow": 0},
+        {"name": "a9", "origin": "3", "destiny": "4", "inferiorLimit": 0, "superiorLimit": 15, "viableFlow": 0},
+        {"name": "a8", "origin": "4", "destiny": "T", "inferiorLimit": 0, "superiorLimit": 6, "viableFlow": 0}
+    ]
+}
